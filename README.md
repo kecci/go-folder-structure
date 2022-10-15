@@ -6,6 +6,7 @@
   - [Folder Structures](#folder-structures)
   - [I. Version Based Structure](#i-version-based-structure)
   - [II. Layered Based Structure](#ii-layered-based-structure)
+  - [III. Function Based Structure](#iii-function-based-structure)
   - [Final thought](#final-thought)
   - [Related discoveries](#related-discoveries)
 
@@ -16,6 +17,7 @@
 There is 2 ways to Folder Structure:
 1. Version Based Structure
 2. Layered Based Structure
+3. Function Based Structure
 
 ## I. Version Based Structure
 
@@ -101,6 +103,37 @@ Pros:
 Cons:
 - We have to aware of all the versions is impacted.
 
+## III. Function Based Structure
+
+Source: https://stackoverflow.com/questions/29611240/best-folder-structure-for-versioning-with-restify
+
+Format:
+- `[ServiceName][DomainName][LayerName]` - FuncName
+
+Example 1:
+- EcommerceService/Products/Controller - (funcV1/funcV2)
+- EcommerceService/Products/Service - (funcV1/funcV2)
+- EcommerceService/Products/Repository - (funcV1/funcV2)
+
+```
+|- EcommerceService
+    |- Products
+            |- Controller (V1/V2)
+            |- Service (V1/V2)
+            |- Repository (V1/V2)
+```
+
+Suitable for:
+- Small services like microservices with no complicated or dependencies.
+- The format of folder breadcrumb will be global.
+- Monolithic Way.
+- Any small projects.
+
+Pros:
+- There is no changes on project foldering. Only file.
+
+Cons:
+- Have a bunch of file.
 
 ## Final thought
 The best folder structure is it depends on your projects. If you are building Public/Open to many access to your service you can choose the `Layered Based Structure`. If you are building a big software project, which have to bundled changes, you can choose `Version Based Structure`.
