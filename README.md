@@ -1,13 +1,13 @@
 # Go Folder Structure
 
 There is 2 ways to Folder Structure:
-1. API Version Based.
-2. Layer Based.
+1. ![Version Based Structure](https://github.com/kecci/go-folder-structure#i-version-based-structure)
+2. ![Layer Based Structure](https://github.com/kecci/go-folder-structure#ii-layered-based-structure)
 
 ## I. Version Based Structure
 
 Format:
-- [ServiceName][Version][DomainName][LayerName] - PackagesName
+- `[ServiceName][Version][DomainName][LayerName]` - PackagesName
 
 Example:
 - EcommerceService/V1/Products/Controller - (v1/controller)
@@ -51,7 +51,7 @@ I found this structure on ![Mindinventory](https://www.mindinventory.com/blog/go
 On the github: https://github.com/Mindinventory/Golang-Project-Structure
 
 Format:
-- [ServiceName][DomainName][LayerName][Version] - PackagesName
+- `[ServiceName][DomainName][LayerName][Version]` - PackagesName
 
 Example 1:
 - EcommerceService/Products/Controller/V1 - (v1controller)
