@@ -136,7 +136,7 @@ Cons:
 - Have a bunch of file.
 
 ## Final thought
-The best folder structure is it depends on your projects. If you are building Public/Open to many access to your service you can choose the `Layered Based Structure`. If you are building a big software project, which have to bundled changes, you can choose `Version Based Structure`.
+The best folder structure is it depends on your projects. If you are building Public/Open to many access to your service you can choose the `Layered Based Structure`. If you are building a big software project, which have to bundled changes, you can choose `Version Based Structure`. Another options for small project you can use `Function Based Structure`
 
 ## Related discoveries
 - Microservice Versioning: https://www.codeguru.com/dotnet/best-practices-versioning-microservices/
