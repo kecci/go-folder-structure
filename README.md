@@ -138,7 +138,10 @@ Cons:
 ## Final thought
 The best folder structure is it depends on your projects. If you are building Public/Open to many access to your service you can choose the `Layered Based Structure`. If you are building a big software project, which have to bundled changes, you can choose `Version Based Structure`. Another options for small project you can use `Function Based Structure`
 
+> "independent deployment operations" -- if all the applications are completely independent, the question is irrelevant, correct? And if they are not independent, it is better to version at the higher level. - Frank Hileman, Apr 7, 2015 at 21:29
+
 ## Related discoveries
 - Microservice Versioning: https://www.codeguru.com/dotnet/best-practices-versioning-microservices/
+- API design for modular apps: https://softwareengineering.stackexchange.com/questions/278468/api-design-for-modular-apps?noredirect=1&lq=1
 
 Kecci, Copyright.
