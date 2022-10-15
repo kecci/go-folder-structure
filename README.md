@@ -1,8 +1,21 @@
 # Go Folder Structure
 
+## Table of Contents
+- [Go Folder Structure](#go-folder-structure)
+  - [Table of Contents](#table-of-contents)
+  - [Folder Structures](#folder-structures)
+  - [I. Version Based Structure](#i-version-based-structure)
+  - [II. Layered Based Structure](#ii-layered-based-structure)
+  - [Final thought](#final-thought)
+  - [Related discoveries](#related-discoveries)
+
+## Folder Structures
+
+> Folder structure is Foundation of services. The good foundation is have a modularity, flexible, simple, cleanly. As a home of code.
+
 There is 2 ways to Folder Structure:
-1. ![Version Based Structure](https://github.com/kecci/go-folder-structure#i-version-based-structure)
-2. ![Layer Based Structure](https://github.com/kecci/go-folder-structure#ii-layered-based-structure)
+1. Version Based Structure
+2. Layered Based Structure
 
 ## I. Version Based Structure
 
@@ -47,7 +60,7 @@ Cons:
 
 ## II. Layered Based Structure
 
-I found this structure on ![Mindinventory](https://www.mindinventory.com/blog/golang-project-structure/).
+I found this structure on [Mindinventory](https://www.mindinventory.com/blog/golang-project-structure/).
 On the github: https://github.com/Mindinventory/Golang-Project-Structure
 
 Format:
