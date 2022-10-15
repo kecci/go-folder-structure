@@ -14,7 +14,7 @@
 
 > Folder structure is Foundation of services. The good foundation is have a modularity, flexible, simple, cleanly. As a home of code.
 
-There is 2 ways to Folder Structure:
+There is some ways to Folder Structure:
 1. Version Based Structure
 2. Layered Based Structure
 3. Function Based Structure
